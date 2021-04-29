@@ -75,7 +75,7 @@ startBtn.addEventListener('click',function(){
     {
         innerMessage.textContent = 'Draw';
         console.log('draw');
-        winMessage.textContent = '';
+        winMessage.textContent = 'Nobody Wins!';
     }
     else if (playerCode === 1)
     {
@@ -287,6 +287,7 @@ startBtn.addEventListener('click',function(){
             }     
     }
     playerCode = 0;
+    
     }
     
 
