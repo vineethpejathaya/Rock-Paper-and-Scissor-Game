@@ -46,7 +46,7 @@ spockBtn.addEventListener('click',function(){
     })
 
 startBtn.addEventListener('click',function(){
-    if(playerImage.src != null.png)
+    if(playerCode !== 0)
     {
     let secNumber = Math.floor(Math.random()* (upper - lower +1)+lower);
     console.log(secNumber);
@@ -286,13 +286,16 @@ startBtn.addEventListener('click',function(){
     
             }     
     }
-
+    playerCode = 0;
     }
-    else{
-        innerMessage.textContent = 'Please select an option to start';
-        console.log('Please select an option to start');
+    
+
+else {
+        innerMessage.textContent = 'Please select an option';
+        console.log('Please select an option');
         winMessage.textContent = '';
-    }
+}
+    
 
 
-    })
+    });
