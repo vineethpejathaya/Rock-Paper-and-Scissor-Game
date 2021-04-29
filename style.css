@@ -1,7 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
 * {
-    box-sizing: border-box;
-    background-color: #9CA3AF;
-    font-family: 'Bangers', cursive;
+    box-sizing: border-box; 
+   /* font-family: 'Zen Dots', cursive; */
+    font-family: 'Shojumaru', cursive;
+    
+    
+}
+body{
+    background-color: #BFDBFE;
+}
+h2{
+  position: absolute;
+  left: 27%;
+  top: 5%;
+    
+}
+.logo{
+    width:8%;
+    height: 8%;
+    border-radius: 50%;
+    margin-left: 2%;
+    margin: 1%;
+}
+.instruction{
+    position: absolute;
+    right: 5%;
+    top: 8%;
+}
+.main{
+    background-color: #DC2626;
+    border-radius: 10px;
+    margin: 1%
+
+}
+.player-color{
+    background-color: yellow;
+    padding: 5px;
+    text-align: center;
+
+}
+.computer-color{
+    background-color: #2563EB;
+    color: white;
+    text-align: center;
+    padding: 5px;
    
+}
+.back-ground{
+    background-color: #BFDBFE;
+    border-radius: 10px;
+    width: 75%;
+    margin-left: 12%;
+}
+
+.score{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 50%;
+    margin-left: 25%;
+    font-size: 15px; 
+}
+
+.image-place{
+    background-color: #6366F1;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    width: 90%;
+   margin: 3%;
+   padding: 1rem 1rem 1rem 1rem;
+   margin-left: 5%;  
+   border-radius:20px;
+}
+.image-place > div{
+    text-align: center;
+}
+.player-image{
+    width: 25%;
+    height: 25%;
+}
+img{
+    background-color: white;
+    border-radius: 50%;
+border: 10px solid #DC2626;
+}
+.computer-image{
+    width: 25%;
+    height: 25%;
+}
+.message{
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    
+
+}
+.list{
+    text-align: left;
+}
+ul{
+    list-style: none; 
+    margin-left: 5%;
+}
+ul li{
+    display: inline;
+   
+}
+button{
+    background-color: black;
+    color: white;
+}
+.list{
+
+}
+.start{
+    text-align: center;
+}
+.start-btn{
+    font-size: large;
 }

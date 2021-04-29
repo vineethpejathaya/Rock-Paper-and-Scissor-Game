@@ -7,9 +7,44 @@
     <link rel="stylesheet"type="text/css" href="style.css">
 </head>
 <body>
-    <div>
-        <h1>Rock, Paper, Scissors, Lizard and Spock</h1>
-        <button>Instructions</button>
+    <div class="main">
+        <img class ="logo" src="image.jpg">
+        <h2>Rock, Paper, Scissors, Lizard and Spock</h2>
+        <button class="instruction">Instructions</button>
     </div>
-</body>
+
+   
+  
+    <section class="score">   
+        <p class="player-color">👨🏽‍💼 Player: <span class="player-score">0</span></p>
+        <p class="computer-color">🖥️ Computer: <span class="computer-score">0</span></p>
+    </section>
+   
+    <section class="image-place"> 
+        <div class="player-section">
+            <img class="player-image" src="null.png">
+        </div>
+       <div class="message"><p class="inner-message">Vs </p>
+             <p class="win-message">challenge</p>
+       </div>
+        <div class="computer-section">
+            <img class="computer-image" src="null.png">
+        </div>
+    </section>
+
+    <diV class="list"> 
+        <ul>
+             <li><button class="rock-btn">Rock</button></li>
+             <li><button class="paper-btn">Paper</button></li>
+             <li><button class="scissor-btn">Scissor</button></li>
+             <li><button class="lizard-btn">Lizard</button></li>
+             <li><button class="spock-btn">Spock</button></li>
+         </ul>
+     </diV>
+     <div class="start">
+         <button class="start-btn">Start</button>
+     </div>
+
+     <script src="script.js"></script>
+</body> 
 </html>
